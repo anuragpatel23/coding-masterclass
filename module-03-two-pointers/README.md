@@ -2,8 +2,6 @@
 
 ## What you'll learn
 
-
-
 You've already been using two pointers informally — Reverse String, Valid Palindrome, Move Zeroes, and String Compression all leaned on the idea without naming it. This module makes it the main event, and pushes it further: opposite-direction pointers for search problems, read/write pointers for in-place compaction, three-way partitioning for multi-group sorting, and fast/slow pointers for a completely different class of problem — detecting cycles in sequences, including your first taste of linked lists.
 
 By the end of this module you will:
