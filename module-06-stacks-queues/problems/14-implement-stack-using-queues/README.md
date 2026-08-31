@@ -7,6 +7,8 @@
 ## Problem Summary
 Implement a LIFO stack using only queue operations (enqueue, dequeue, front, empty).
 
+
+
 ## Example
 ```
 push(1), push(2), top() -> 2, pop() -> 2, empty() -> false
