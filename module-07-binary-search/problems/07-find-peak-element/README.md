@@ -4,8 +4,10 @@
 **Pattern:** Binary Search on an Unsorted-but-Structured Array
 **LeetCode:** https://leetcode.com/problems/find-peak-element/
 
+
 ## Problem Summary
 A peak element is one that is strictly greater than its neighbors (edges are treated as bordering `-infinity`). Given an array (not necessarily sorted), find the index of *any* peak element, in O(log n).
+
 
 ## Example
 ```

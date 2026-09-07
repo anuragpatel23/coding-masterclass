@@ -7,19 +7,17 @@
 ## Problem Summary
 Given a sorted array and a target value, return its index, or `-1` if it's not present.
 
-
-
 ## Example
 ```
 Input:  nums = [-1,0,3,5,9,12], target = 9
 Output: 4
 ```
-
 ## Pattern Recognition
 Sorted data + "find a value" is the foundational signal for binary search: every comparison against the middle element eliminates **half** of the remaining search space, because sortedness guarantees which half the target must be in.
 
 ## Approach 1: Brute Force
 Scan the array linearly, checking each element.
+
 
 - **Time:** O(n)
 - **Space:** O(1)
