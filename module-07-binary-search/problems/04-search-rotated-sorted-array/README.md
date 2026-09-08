@@ -4,14 +4,17 @@
 **Pattern:** Modified Binary Search
 **LeetCode:** https://leetcode.com/problems/search-in-rotated-sorted-array/
 
+
 ## Problem Summary
 A sorted array has been rotated at some unknown pivot (e.g., `[0,1,2,4,5,6,7]` becomes `[4,5,6,7,0,1,2]`). Given the rotated array and a target, find its index, or `-1` if absent, in O(log n).
+
 
 ## Example
 ```
 Input:  nums = [4,5,6,7,0,1,2], target = 0
 Output: 4
 ```
+
 
 ## Pattern Recognition
 The array isn't fully sorted, so you can't directly compare `target` to `nums[mid]` and know which half to search — but here's the key insight: **at least one of the two halves around any `mid` is always fully sorted.** Once you identify which half is sorted, you can check with a simple range comparison whether the target could be in that sorted half — if so, search there; if not, it must be in the other (rotated) half.
