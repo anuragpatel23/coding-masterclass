@@ -4,11 +4,13 @@
 
 Sliding Window is a specialized two-pointer technique: instead of pointers converging from opposite ends (Module 3), both pointers move in the *same* direction, expanding and shrinking a contiguous range over an array or string. Whenever a problem mentions "longest," "shortest," "maximum sum/product," or "contains all of" in the context of a *contiguous* subarray or substring, this is the module to reach for.
 
+
 By the end of this module you will:
 - Instantly distinguish fixed-size windows (the size is given) from variable-size windows (the size is whatever satisfies a condition)
 - Know the "shrink while invalid" vs. "shrink while valid" distinction, and why Minimum Window Substring needs both ideas at once
 - Understand the exactly(K) = atMost(K) - atMost(K-1) trick for counting problems that don't fit a simple grow/shrink shape
 - Have implemented a monotonic deque, the structure that makes Sliding Window Maximum possible in O(n)
+
 
 ## Fixed vs. variable windows
 
