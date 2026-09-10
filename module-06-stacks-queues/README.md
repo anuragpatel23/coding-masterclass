@@ -4,6 +4,7 @@
 
 Stacks (LIFO) and queues (FIFO) are the simplest possible data structures, but they power a surprisingly large slice of interview problems: bracket matching, expression evaluation, nested-structure parsing, and — the single highest-leverage pattern in this module — the **monotonic stack**, which turns a whole family of "next greater/smaller element" problems from O(n²) into O(n).
 
+
 By the end of this module you will:
 - Reach for a stack the instant a problem involves nesting, matching, or "does the most recent thing cancel with what's next"
 - Recognize the monotonic stack shape on sight, across five different problems that all reduce to the same core loop
@@ -11,6 +12,7 @@ By the end of this module you will:
 - Have implemented both directions of the classic "build X using only Y" interview question (queue from stacks, stack from queues)
 
 ## Why LIFO unlocks nested-structure problems
+
 
 ```mermaid
 graph TB
@@ -36,6 +38,7 @@ flowchart LR
     C --> B
     B -->|no| D["Push current element"]
 ```
+
 
 Once you can recognize this shape, "next greater," "next smaller," "how many days until," and "how wide can this rectangle grow" all stop looking like different problems.
 
