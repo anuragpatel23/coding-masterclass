@@ -7,7 +7,8 @@
 ## Problem Summary
 Given a sorted array and a target value, return its index, or `-1` if it's not present.
 
-## Example
+## Exampletatus
+
 ```
 Input:  nums = [-1,0,3,5,9,12], target = 9
 Output: 4
