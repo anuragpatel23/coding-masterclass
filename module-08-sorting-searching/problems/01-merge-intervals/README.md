@@ -4,6 +4,8 @@
 **Pattern:** Sort + Linear Merge
 **LeetCode:** https://leetcode.com/problems/merge-intervals/
 
+
+
 ## Problem Summary
 Given an array of intervals, merge all overlapping intervals and return the resulting non-overlapping set.
 
