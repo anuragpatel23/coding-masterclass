@@ -2,6 +2,7 @@
 
 ## What you'll learn
 
+
 Stacks (LIFO) and queues (FIFO) are the simplest possible data structures, but they power a surprisingly large slice of interview problems: bracket matching, expression evaluation, nested-structure parsing, and — the single highest-leverage pattern in this module — the **monotonic stack**, which turns a whole family of "next greater/smaller element" problems from O(n²) into O(n).
 
 
