@@ -1,5 +1,6 @@
 # Module 1 — Arrays & Complexity Foundations
 
+
 ## What you'll learn
 
 Arrays are the first module because every other data structure in this repo is either built on top of one (dynamic arrays, hash tables) or defined in contrast to one (linked lists exist specifically to fix arrays' insert/delete weakness). Before you touch a single problem, you need the mental model of *why* arrays behave the way they do — that model is what lets you predict complexity before you write a single line of code.
