@@ -1,5 +1,6 @@
 # Module 2 — Strings
 
+
 ## What you'll learn
 
 Strings are arrays of characters with a few extra rules bolted on: in Java they're immutable (every "modification" actually creates a new object), and text brings its own vocabulary of problems — palindromes, anagrams, prefix matching, and manual arithmetic on digit strings. Everything you learned in Module 1 (two-pointer swaps, in-place write pointers, frequency counting) reappears here, applied to text instead of numbers.
