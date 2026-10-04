@@ -2,6 +2,7 @@
 
 ## What you'll learn
 
+
 You previewed fast/slow pointers on linked lists in Module 3. This module goes deep on everything else: in-place reversal, the dummy-head technique that eliminates head-of-list edge cases, and the merge/split operations that power most "hard" linked-list interview questions. By the end, a linked list problem should immediately decompose in your head into a small number of these building blocks, chained together.
 
 By the end of this module you will:
